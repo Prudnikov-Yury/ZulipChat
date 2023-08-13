@@ -14,3 +14,13 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Zulip"
 include ':app'
+include ':core:common'
+include ':core:common-impl'
+include ':core:presentation'
+include ':core:theme'
+include ':data'
+include ':navigation'
+include ':features:profile'
+include ':features:users'
+include ':features:chat'
+include ':features:streams'
